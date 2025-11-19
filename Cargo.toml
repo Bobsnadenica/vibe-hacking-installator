@@ -1,0 +1,12 @@
+[package]
+name = "Vibe-Hacking-Installator"
+version = "0.1.1"
+edition = "2024"
+authors = ["BobSNadenica"]
+description = "Fool your boss that you are a pro, he won't know"
+
+[dependencies]
+crossterm = "0.27"
+rand = "0.8"
+colored = "2.1"
+clap = { version = "4.5", features = ["derive"] }
